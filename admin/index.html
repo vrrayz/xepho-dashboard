@@ -1,2575 +1,1773 @@
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <!-- CSRF Token -->
-    <meta
-      name="csrf-token"
-      content="JOHHozZGw1hjxeZRyh78jz7sF6qbqqfE7v0BxUGX"
-    />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+<head>
+  <meta charset="utf-8" />
+  <!-- CSRF Token -->
+  <meta name="csrf-token" content="JOHHozZGw1hjxeZRyh78jz7sF6qbqqfE7v0BxUGX" />
 
-    <meta name="robots" content="NOODP, nofollow, noindex" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://traderdev.xepho.co.uk/store/tenants/demo/users/1017/green xepho x1.png"
-    />
-    <link
-      rel="manifest"
-      href="https://traderdev.xepho.co.uk/mix-manifest.json?v=4"
-    />
-    <meta name="theme-color" content="#FFF" />
-    <!-- Windows Phone -->
-    <meta name="msapplication-starturl" content="/" />
-    <meta name="msapplication-TileColor" content="#FFF" />
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-title" content="Xepho LMS" />
-    <link
-      rel="apple-touch-icon"
-      href="https://traderdev.xepho.co.uk/store/tenants/demo/users/1017/green xepho x1.png"
-    />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <!-- Android -->
-    <link
-      rel="icon"
-      href="https://traderdev.xepho.co.uk/store/tenants/demo/users/1017/green xepho x1.png"
-    />
-    <meta name="application-name" content="Xepho LMS" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <!-- Other -->
-    <meta name="layoutmode" content="fitscreen/standard" />
-    <link rel="home" href="https://traderdev.xepho.co.uk" />
+  <meta name="robots" content="NOODP, nofollow, noindex" />
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Dashboard" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Dashboard" />
+  <link rel="shortcut icon" type="image/x-icon"
+    href="https://traderdev.xepho.co.uk/store/tenants/demo/users/1017/green xepho x1.png" />
+  <link rel="manifest" href="https://traderdev.xepho.co.uk/mix-manifest.json?v=4" />
+  <meta name="theme-color" content="#FFF" />
+  <!-- Windows Phone -->
+  <meta name="msapplication-starturl" content="/" />
+  <meta name="msapplication-TileColor" content="#FFF" />
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-title" content="Xepho LMS" />
+  <link rel="apple-touch-icon" href="https://traderdev.xepho.co.uk/store/tenants/demo/users/1017/green xepho x1.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <!-- Android -->
+  <link rel="icon" href="https://traderdev.xepho.co.uk/store/tenants/demo/users/1017/green xepho x1.png" />
+  <meta name="application-name" content="Xepho LMS" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <!-- Other -->
+  <meta name="layoutmode" content="fitscreen/standard" />
+  <link rel="home" href="https://traderdev.xepho.co.uk" />
 
-    <meta
-      property="og:site_name"
-      content="https://traderdev.xepho.co.uk/Xepho LMS"
-    />
-    <meta
-      property="og:image"
-      content="https://traderdev.xepho.co.uk/store/tenants/demo/users/1017/green xepho x1.png"
-    />
-    <meta
-      name="twitter:image"
-      content="https://traderdev.xepho.co.uk/store/tenants/demo/users/1017/green xepho x1.png"
-    />
-    <meta property="og:locale" content="https://traderdev.xepho.co.uk/en_US" />
-    <meta property="og:type" content="website" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dashboard" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Dashboard" />
 
-    <title>Dashboard</title>
+  <meta property="og:site_name" content="https://traderdev.xepho.co.uk/Xepho LMS" />
+  <meta property="og:image" content="https://traderdev.xepho.co.uk/store/tenants/demo/users/1017/green xepho x1.png" />
+  <meta name="twitter:image" content="https://traderdev.xepho.co.uk/store/tenants/demo/users/1017/green xepho x1.png" />
+  <meta property="og:locale" content="https://traderdev.xepho.co.uk/en_US" />
+  <meta property="og:type" content="website" />
 
-    <!-- General CSS File -->
-    <link
-      rel="stylesheet"
-      href="https://traderdev.xepho.co.uk/assets/admin/vendor/bootstrap/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://traderdev.xepho.co.uk/assets/vendors/fontawesome/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://traderdev.xepho.co.uk/assets/default/vendors/toast/jquery.toast.min.css"
-    />
+  <title>Dashboard</title>
 
-    <link
-      rel="stylesheet"
-      href="https://traderdev.xepho.co.uk/assets/admin/vendor/owl.carousel/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://traderdev.xepho.co.uk/assets/admin/vendor/owl.carousel/owl.theme.min.css"
-    />
+  <!-- General CSS File -->
+  <link rel="stylesheet" href="https://traderdev.xepho.co.uk/assets/admin/vendor/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://traderdev.xepho.co.uk/assets/vendors/fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="https://traderdev.xepho.co.uk/assets/default/vendors/toast/jquery.toast.min.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://traderdev.xepho.co.uk/assets/admin/css/style.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://traderdev.xepho.co.uk/assets/admin/css/custom.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://traderdev.xepho.co.uk/assets/admin/css/components.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://traderdev.xepho.co.uk/assets/admin/vendor/daterangepicker/daterangepicker.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://traderdev.xepho.co.uk/assets/default/vendors/select2/select2.min.css"
-    />
+  <link rel="stylesheet" href="https://traderdev.xepho.co.uk/assets/admin/vendor/owl.carousel/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://traderdev.xepho.co.uk/assets/admin/vendor/owl.carousel/owl.theme.min.css" />
 
-    <style>
-      :root {
-        --primary: #1c797e;
-      }
-      body {
-        overflow-x: hidden;
-      }
-    </style>
-  </head>
+  <link rel="stylesheet" href="https://traderdev.xepho.co.uk/assets/admin/css/style.css" />
+  <link rel="stylesheet" href="https://traderdev.xepho.co.uk/assets/admin/css/custom.css" />
+  <link rel="stylesheet" href="https://traderdev.xepho.co.uk/assets/admin/css/components.css" />
+  <link rel="stylesheet"
+    href="https://traderdev.xepho.co.uk/assets/admin/vendor/daterangepicker/daterangepicker.min.css" />
+  <link rel="stylesheet" href="https://traderdev.xepho.co.uk/assets/default/vendors/select2/select2.min.css" />
 
-  <body class="">
-    <div id="app">
-      <div class="main-wrapper">
-        <button type="button" class="sidebar-close">
-          <i class="fa fa-times"></i>
-        </button>
+  <!-- Custom css -->
+  <link rel="stylesheet" href="./admin.css">
+</head>
 
-        <div class="navbar-bg"></div>
-
-        <nav class="navbar navbar-expand-lg main-navbar">
-          <form class="form-inline mr-auto">
-            <ul class="navbar-nav mr-3">
-              <li>
-                <a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"
-                  ><i class="fas fa-bars"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  data-toggle="search"
-                  class="nav-link nav-link-lg d-sm-none"
-                  ><i class="fas fa-search"></i
-                ></a>
-              </li>
-            </ul>
-          </form>
-          <ul class="navbar-nav navbar-right">
-            <div
-              class="js-show-ai-content-drawer show-ai-content-drawer-btn d-flex-center mr-40"
-            >
-              <div class="d-flex-center size-32 rounded-circle bg-white">
-                <img
-                  src="https://traderdev.xepho.co.uk/assets/default/img/ai/ai-chip.svg"
-                  alt="ai"
-                  class=""
-                  width="16px"
-                  height="16px"
-                />
-              </div>
-              <span class="ml-2 font-weight-500 font-14 d-none d-lg-block"
-                >AI Content</span
-              >
-            </div>
-
-            <form
-              action="/locale"
-              method="post"
-              class="mr-2 mr-md-3 mb-0 admin-navbar-locale"
-            >
-              <input
-                type="hidden"
-                name="_token"
-                value="JOHHozZGw1hjxeZRyh78jz7sF6qbqqfE7v0BxUGX"
-              />
-
-              <input type="hidden" name="locale" />
-
-              <div class="language-select">
-                <div
-                  id="localItems"
-                  data-selected-country="US"
-                  data-countries='{"IQ":"Arabic","US":"English","FR":"French","ES":"Spanish"}'
-                ></div>
-              </div>
-            </form>
-
-            <!---->,-->
-
-            <li class="dropdown dropdown-list-toggle">
-              <a
-                href="#"
-                data-toggle="dropdown"
-                class="nav-link notification-toggle nav-link-lg"
-              >
-                <i class="fa fa-info-circle"></i>
-              </a>
-              <div class="dropdown-menu dropdown-list dropdown-menu-right">
-                <div class="dropdown-list-icons mb-0" height="150px">
-                  <a href="https://xepho.co.uk" class="dropdown-item">
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="fa fa-info"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      Xepho LMS Version 1.9.7
-                      <div class="time text-primary">
-                        All rights reserved for Xepho LMS
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
+<body class="">
+  <div id="app">
+    <div class="main-wrapper">
+      <!-- ===== Navbar ======== -->
+      <button type="button" class="sidebar-close">
+        <i class="fa fa-times"></i>
+      </button>
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar">
+        <form class="form-inline mr-auto">
+          <ul class="navbar-nav mr-3">
+            <li>
+              <a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a>
             </li>
-
-            <li class="dropdown dropdown-list-toggle">
-              <a
-                href="#"
-                data-toggle="dropdown"
-                class="nav-link notification-toggle nav-link-lg beep"
-              >
-                <i class="far fa-bell"></i>
-              </a>
-
-              <div class="dropdown-menu dropdown-list dropdown-menu-right">
-                <div class="dropdown-header">
-                  Notifications
-                  <div class="float-right">
-                    <a
-                      href="https://traderdev.xepho.co.uk/admin/notifications/mark_all_read"
-                      >Mark All As Read</a
-                    >
-                  </div>
-                </div>
-
-                <div class="dropdown-list-content dropdown-list-icons">
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New course enrollment
-                      <div class="time text-primary">2025 Mar 6 | 10:18</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New course enrollment
-                      <div class="time text-primary">2025 Mar 6 | 10:07</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New course enrollment
-                      <div class="time text-primary">2025 Feb 13 | 06:31</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New course enrollment
-                      <div class="time text-primary">2025 Feb 6 | 09:31</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New item created
-                      <div class="time text-primary">2025 Feb 6 | 09:23</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New course enrollment
-                      <div class="time text-primary">2025 Feb 6 | 07:40</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New item created
-                      <div class="time text-primary">2025 Feb 6 | 07:24</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New user registered
-                      <div class="time text-primary">2025 Feb 3 | 13:28</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New course enrollment
-                      <div class="time text-primary">2025 Jan 29 | 14:33</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New course enrollment
-                      <div class="time text-primary">2025 Jan 24 | 16:43</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New user registered
-                      <div class="time text-primary">2025 Jan 24 | 16:27</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New item review (Rating)
-                      <div class="time text-primary">2025 Jan 24 | 15:13</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New course enrollment
-                      <div class="time text-primary">2025 Jan 24 | 14:45</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New user registered
-                      <div class="time text-primary">2025 Jan 24 | 14:41</div>
-                    </div>
-                  </a>
-                  <a
-                    href="https://traderdev.xepho.co.uk/admin/notifications"
-                    class="dropdown-item"
-                  >
-                    <div
-                      class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center"
-                    >
-                      <i class="far fa-user"></i>
-                    </div>
-                    <div class="dropdown-item-desc">
-                      New user registered
-                      <div class="time text-primary">2024 Nov 1 | 09:14</div>
-                    </div>
-                  </a>
-                </div>
-                <div class="dropdown-footer text-center">
-                  <a href="https://traderdev.xepho.co.uk/admin/notifications"
-                    >View All <i class="fas fa-chevron-right"></i
-                  ></a>
-                </div>
-              </div>
-            </li>
-
-            <li class="dropdown">
-              <a
-                href="#"
-                data-toggle="dropdown"
-                class="nav-link dropdown-toggle nav-link-lg nav-link-user"
-              >
-                <img
-                  alt="image"
-                  src="https://traderdev.xepho.co.uk/getDefaultAvatar?item=1098&amp;name=David Trevor&amp;size=40"
-                  class="rounded-circle mr-1"
-                />
-                <div class="d-sm-none d-lg-inline-block">David Trevor</div>
-              </a>
-              <div class="dropdown-menu dropdown-menu-right">
-                <a
-                  href="https://traderdev.xepho.co.uk/"
-                  class="dropdown-item has-icon"
-                >
-                  <i class="fas fa-globe"></i> Show Website
-                </a>
-
-                <a
-                  href="https://traderdev.xepho.co.uk/admin/users/1098/edit"
-                  class="dropdown-item has-icon"
-                >
-                  <i class="fas fa-cog"></i> Change Password
-                </a>
-
-                <div class="dropdown-divider"></div>
-                <a
-                  href="https://traderdev.xepho.co.uk/admin/logout"
-                  class="dropdown-item has-icon text-danger"
-                >
-                  <i class="fas fa-sign-out-alt"></i> Logout
-                </a>
-              </div>
+            <li>
+              <a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a>
             </li>
           </ul>
-        </nav>
-
-        <div class="ai-content-generator-drawer bg-white">
-          <div
-            class="ai-content-generator-drawer-header d-flex align-items-center justify-content-between p-15"
-          >
-            <div class="">
-              <h5 class="font-16 font-weight-bold mb-0">
-                AI Content Generator
-              </h5>
-              <p class="mt-1 font-12 text-gray mb-0">
-                Generate content using AI fast and professional
-              </p>
+        </form>
+        <ul class="navbar-nav navbar-right">
+          <div class="js-show-ai-content-drawer show-ai-content-drawer-btn d-flex-center mr-40">
+            <div class="d-flex-center size-32 rounded-circle bg-white">
+              <img src="https://traderdev.xepho.co.uk/assets/default/img/ai/ai-chip.svg" alt="ai" class="" width="16px"
+                height="16px" />
             </div>
-
-            <button
-              type="button"
-              class="js-right-drawer-close d-flex btn-transparent"
-            >
-              <i data-feather="x" width="33" height="33" class=""></i>
-            </button>
+            <span class="ml-2 font-weight-500 font-14 d-none d-lg-block">AI Content</span>
           </div>
 
-          <div class="drawer-content p-15" data-simplebar>
-            <form action="/admin/ai-contents/generate" method="post">
-              <input
-                type="hidden"
-                name="_token"
-                value="JOHHozZGw1hjxeZRyh78jz7sF6qbqqfE7v0BxUGX"
-              />
+          <form action="/locale" method="post" class="mr-2 mr-md-3 mb-0 admin-navbar-locale">
+            <input type="hidden" name="_token" value="JOHHozZGw1hjxeZRyh78jz7sF6qbqqfE7v0BxUGX" />
 
-              <div
-                class="d-flex align-items-center p-15 rounded-sm bg-info-light border-gray300 mb-15"
-              >
-                <div class="d-flex-center size-40 rounded-circle bg-white">
-                  <img
-                    src="https://traderdev.xepho.co.uk/assets/default/img/ai/ai-chip.svg"
-                    alt="ai"
-                    class=""
-                    width="20px"
-                    height="20px"
-                  />
-                </div>
-                <div class="ml-2">
-                  <h5 class="d-block font-weight-bold text-gray font-14 mb-0">
-                    Generate content easily!
-                  </h5>
-                  <p class="font-12 text-gray mb-0">
-                    Select the content type you want and describe your
-                    requirements and get the content
-                  </p>
+            <input type="hidden" name="locale" />
+
+            <div class="language-select">
+              <div id="localItems" data-selected-country="US"
+                data-countries='{"IQ":"Arabic","US":"English","FR":"French","ES":"Spanish"}'></div>
+            </div>
+          </form>
+
+
+          <li class="dropdown dropdown-list-toggle">
+            <a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg">
+              <i class="fa fa-info-circle"></i>
+            </a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right">
+              <div class="dropdown-list-icons mb-0" height="150px">
+                <a href="https://xepho.co.uk" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="fa fa-info"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    Xepho LMS Version 1.9.7
+                    <div class="time text-primary">
+                      All rights reserved for Xepho LMS
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="dropdown dropdown-list-toggle">
+            <a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep">
+              <i class="far fa-bell"></i>
+            </a>
+
+            <div class="dropdown-menu dropdown-list dropdown-menu-right">
+              <div class="dropdown-header">
+                Notifications
+                <div class="float-right">
+                  <a href="https://traderdev.xepho.co.uk/admin/notifications/mark_all_read">Mark All As Read</a>
                 </div>
               </div>
 
-              <input type="hidden" name="service_type" value="text" />
-              <div class="">
-                <span class="js-ajax-service_type"></span>
-                <div class="invalid-feedback d-block"></div>
+              <div class="dropdown-list-content dropdown-list-icons">
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New course enrollment
+                    <div class="time text-primary">2025 Mar 6 | 10:18</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New course enrollment
+                    <div class="time text-primary">2025 Mar 6 | 10:07</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New course enrollment
+                    <div class="time text-primary">2025 Feb 13 | 06:31</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New course enrollment
+                    <div class="time text-primary">2025 Feb 6 | 09:31</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New item created
+                    <div class="time text-primary">2025 Feb 6 | 09:23</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New course enrollment
+                    <div class="time text-primary">2025 Feb 6 | 07:40</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New item created
+                    <div class="time text-primary">2025 Feb 6 | 07:24</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New user registered
+                    <div class="time text-primary">2025 Feb 3 | 13:28</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New course enrollment
+                    <div class="time text-primary">2025 Jan 29 | 14:33</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New course enrollment
+                    <div class="time text-primary">2025 Jan 24 | 16:43</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New user registered
+                    <div class="time text-primary">2025 Jan 24 | 16:27</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New item review (Rating)
+                    <div class="time text-primary">2025 Jan 24 | 15:13</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New course enrollment
+                    <div class="time text-primary">2025 Jan 24 | 14:45</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New user registered
+                    <div class="time text-primary">2025 Jan 24 | 14:41</div>
+                  </div>
+                </a>
+                <a href="https://traderdev.xepho.co.uk/admin/notifications" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    New user registered
+                    <div class="time text-primary">2024 Nov 1 | 09:14</div>
+                  </div>
+                </a>
+              </div>
+              <div class="dropdown-footer text-center">
+                <a href="https://traderdev.xepho.co.uk/admin/notifications">View All <i
+                    class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+              <img alt="image"
+                src="https://traderdev.xepho.co.uk/getDefaultAvatar?item=1098&amp;name=David Trevor&amp;size=40"
+                class="rounded-circle mr-1" />
+              <div class="d-sm-none d-lg-inline-block">David Trevor</div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a href="https://traderdev.xepho.co.uk/" class="dropdown-item has-icon">
+                <i class="fas fa-globe"></i> Show Website
+              </a>
+
+              <a href="https://traderdev.xepho.co.uk/admin/users/1098/edit" class="dropdown-item has-icon">
+                <i class="fas fa-cog"></i> Change Password
+              </a>
+
+              <div class="dropdown-divider"></div>
+              <a href="https://traderdev.xepho.co.uk/admin/logout" class="dropdown-item has-icon text-danger">
+                <i class="fas fa-sign-out-alt"></i> Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="ai-content-generator-drawer bg-white">
+        <div class="ai-content-generator-drawer-header d-flex align-items-center justify-content-between p-15">
+          <div class="">
+            <h5 class="font-16 font-weight-bold mb-0">
+              AI Content Generator
+            </h5>
+            <p class="mt-1 font-12 text-gray mb-0">
+              Generate content using AI fast and professional
+            </p>
+          </div>
+
+          <button type="button" class="js-right-drawer-close d-flex btn-transparent">
+            <i data-feather="x" width="33" height="33" class=""></i>
+          </button>
+        </div>
+
+        <div class="drawer-content p-15" data-simplebar>
+          <form action="/admin/ai-contents/generate" method="post">
+            <input type="hidden" name="_token" value="JOHHozZGw1hjxeZRyh78jz7sF6qbqqfE7v0BxUGX" />
+
+            <div class="d-flex align-items-center p-15 rounded-sm bg-info-light border-gray300 mb-15">
+              <div class="d-flex-center size-40 rounded-circle bg-white">
+                <img src="https://traderdev.xepho.co.uk/assets/default/img/ai/ai-chip.svg" alt="ai" class=""
+                  width="20px" height="20px" />
+              </div>
+              <div class="ml-2">
+                <h5 class="d-block font-weight-bold text-gray font-14 mb-0">
+                  Generate content easily!
+                </h5>
+                <p class="font-12 text-gray mb-0">
+                  Select the content type you want and describe your
+                  requirements and get the content
+                </p>
+              </div>
+            </div>
+
+            <input type="hidden" name="service_type" value="text" />
+            <div class="">
+              <span class="js-ajax-service_type"></span>
+              <div class="invalid-feedback d-block"></div>
+            </div>
+
+            <div class="js-text-templates-field mt-20">
+              <div class="form-group">
+                <label class="input-label">Service</label>
+                <select name="text_service_id" class="js-ajax-text_service_id js-text-service-templates form-control">
+                  <option value="">Select a service</option>
+
+                  <option value="1" data-enable-length="yes" data-length="5">
+                    Course Title
+                  </option>
+                  <option value="2" data-enable-length="yes" data-length="40">
+                    Course Short Description
+                  </option>
+                  <option value="3" data-enable-length="yes" data-length="300">
+                    Course Long Description
+                  </option>
+                  <option value="4" data-enable-length="yes" data-length="5">
+                    Blog Title
+                  </option>
+                  <option value="5" data-enable-length="yes" data-length="100">
+                    Blog Short Description
+                  </option>
+                  <option value="6" data-enable-length="yes" data-length="300">
+                    Blog Long Description
+                  </option>
+                  <option value="8" data-enable-length="yes" data-length="160">
+                    Course SEO Description
+                  </option>
+                  <option value="9" data-enable-length="yes" data-length="160">
+                    Blog SEO Description
+                  </option>
+                  <option value="10" data-enable-length="yes" data-length="300">
+                    Upcoming Course Description
+                  </option>
+                  <option value="11" data-enable-length="yes" data-length="150">
+                    Quiz Question
+                  </option>
+                  <option value="12" data-enable-length="no" data-length="">
+                    Generate FAQ
+                  </option>
+                  <option value="13" data-enable-length="no" data-length="">
+                    Course Requirements
+                  </option>
+                  <option value="14" data-enable-length="yes" data-length="200">
+                    Form Description
+                  </option>
+                  <option value="15" data-enable-length="yes" data-length="200">
+                    Course Advertising Description
+                  </option>
+                  <option value="16" data-enable-length="yes" data-length="300">
+                    &quot;About Us&quot; Page Description
+                  </option>
+                  <option value="17" data-enable-length="yes" data-length="100">
+                    Generate Notice
+                  </option>
+                  <option value="18" data-enable-length="yes" data-length="5">
+                    Store Product Title
+                  </option>
+                  <option value="19" data-enable-length="yes" data-length="300">
+                    Store Product Description
+                  </option>
+                  <option value="20" data-enable-length="yes" data-length="160">
+                    Store Product SEO Description
+                  </option>
+                  <option value="21" data-enable-length="no" data-length="">
+                    Generate Lessons
+                  </option>
+
+                  <option value="custom_text">Custom Text</option>
+                </select>
+                <div class="invalid-feedback"></div>
               </div>
 
-              <div class="js-text-templates-field mt-20">
-                <div class="form-group">
-                  <label class="input-label">Service</label>
-                  <select
-                    name="text_service_id"
-                    class="js-ajax-text_service_id js-text-service-templates form-control"
-                  >
-                    <option value="">Select a service</option>
-
-                    <option value="1" data-enable-length="yes" data-length="5">
-                      Course Title
-                    </option>
-                    <option value="2" data-enable-length="yes" data-length="40">
-                      Course Short Description
-                    </option>
-                    <option
-                      value="3"
-                      data-enable-length="yes"
-                      data-length="300"
-                    >
-                      Course Long Description
-                    </option>
-                    <option value="4" data-enable-length="yes" data-length="5">
-                      Blog Title
-                    </option>
-                    <option
-                      value="5"
-                      data-enable-length="yes"
-                      data-length="100"
-                    >
-                      Blog Short Description
-                    </option>
-                    <option
-                      value="6"
-                      data-enable-length="yes"
-                      data-length="300"
-                    >
-                      Blog Long Description
-                    </option>
-                    <option
-                      value="8"
-                      data-enable-length="yes"
-                      data-length="160"
-                    >
-                      Course SEO Description
-                    </option>
-                    <option
-                      value="9"
-                      data-enable-length="yes"
-                      data-length="160"
-                    >
-                      Blog SEO Description
-                    </option>
-                    <option
-                      value="10"
-                      data-enable-length="yes"
-                      data-length="300"
-                    >
-                      Upcoming Course Description
-                    </option>
-                    <option
-                      value="11"
-                      data-enable-length="yes"
-                      data-length="150"
-                    >
-                      Quiz Question
-                    </option>
-                    <option value="12" data-enable-length="no" data-length="">
-                      Generate FAQ
-                    </option>
-                    <option value="13" data-enable-length="no" data-length="">
-                      Course Requirements
-                    </option>
-                    <option
-                      value="14"
-                      data-enable-length="yes"
-                      data-length="200"
-                    >
-                      Form Description
-                    </option>
-                    <option
-                      value="15"
-                      data-enable-length="yes"
-                      data-length="200"
-                    >
-                      Course Advertising Description
-                    </option>
-                    <option
-                      value="16"
-                      data-enable-length="yes"
-                      data-length="300"
-                    >
-                      &quot;About Us&quot; Page Description
-                    </option>
-                    <option
-                      value="17"
-                      data-enable-length="yes"
-                      data-length="100"
-                    >
-                      Generate Notice
-                    </option>
-                    <option value="18" data-enable-length="yes" data-length="5">
-                      Store Product Title
-                    </option>
-                    <option
-                      value="19"
-                      data-enable-length="yes"
-                      data-length="300"
-                    >
-                      Store Product Description
-                    </option>
-                    <option
-                      value="20"
-                      data-enable-length="yes"
-                      data-length="160"
-                    >
-                      Store Product SEO Description
-                    </option>
-                    <option value="21" data-enable-length="no" data-length="">
-                      Generate Lessons
-                    </option>
-
-                    <option value="custom_text">Custom Text</option>
-                  </select>
-                  <div class="invalid-feedback"></div>
-                </div>
-
-                <div class="js-for-service-fields form-group d-none">
-                  <label class="input-label">Language</label>
-                  <select name="language" class="js-ajax-language form-control">
-                    <option value="EN">English</option>
-                    <option value="AR">Arabic</option>
-                    <option value="FR">French</option>
-                    <option value="ES">Spanish</option>
-                  </select>
-                  <div class="invalid-feedback"></div>
-                </div>
-
-                <div class="js-for-service-fields form-group d-none">
-                  <label class="input-label">Keyword</label>
-                  <input
-                    type="text"
-                    name="keyword"
-                    class="js-ajax-keyword form-control"
-                  />
-                  <div class="invalid-feedback"></div>
-                  <p class="mt-1 font-12 text-gray">
-                    Describe in some words about what you want
-                  </p>
-                </div>
-
-                <div class="form-group js-question-field d-none">
-                  <label class="input-label">Question</label>
-                  <input
-                    type="text"
-                    name="question"
-                    class="js-ajax-question form-control"
-                  />
-                  <div class="invalid-feedback"></div>
-                  <p class="mt-1 font-12 text-gray">Ask AI what you want</p>
-                </div>
-
-                <div class="js-service-length-field form-group d-none">
-                  <label class="input-label">Length</label>
-                  <input
-                    type="number"
-                    name="length"
-                    class="js-ajax-length form-control"
-                    min="1"
-                    max=""
-                    data-max-error="The maximum allowed is:"
-                  />
-                  <div class="invalid-feedback"></div>
-                </div>
+              <div class="js-for-service-fields form-group d-none">
+                <label class="input-label">Language</label>
+                <select name="language" class="js-ajax-language form-control">
+                  <option value="EN">English</option>
+                  <option value="AR">Arabic</option>
+                  <option value="FR">French</option>
+                  <option value="ES">Spanish</option>
+                </select>
+                <div class="invalid-feedback"></div>
               </div>
 
-              <div class="js-image-templates-field d-none">
-                <div class="form-group mt-20">
-                  <label class="input-label">Service</label>
-                  <select
-                    name="image_service_id"
-                    class="js-ajax-image_service_id js-image-service-templates form-control"
-                  >
-                    <option value="">Select a service</option>
-
-                    <option value="7">Genrate Image</option>
-
-                    <option value="custom_image">Custom Image</option>
-                  </select>
-                  <div class="invalid-feedback"></div>
-                </div>
-
-                <div class="form-group js-image-question-field d-none">
-                  <label class="input-label">Question</label>
-                  <input
-                    type="text"
-                    name="image_question"
-                    class="js-ajax-image_question form-control"
-                  />
-                  <div class="invalid-feedback"></div>
-                  <p class="mt-1 font-12 text-gray">Ask AI what you want</p>
-                </div>
-
-                <div class="js-image-keyword-field form-group d-none">
-                  <label class="input-label">Keyword</label>
-                  <input
-                    type="text"
-                    name="image_keyword"
-                    class="js-ajax-image_keyword form-control"
-                  />
-                  <div class="invalid-feedback"></div>
-                  <p class="mt-1 font-12 text-gray">
-                    Describe in some words about what you want
-                  </p>
-                </div>
-
-                <div class="js-image-size-field form-group d-none">
-                  <label class="input-label">Image Size</label>
-                  <select
-                    name="image_size"
-                    class="js-ajax-image_size form-control"
-                  >
-                    <option value="">Select Image Size</option>
-                    <option value="256">256x256</option>
-                    <option value="512">512x512</option>
-                    <option value="1024">1024x1024</option>
-                  </select>
-                  <div class="invalid-feedback"></div>
-                </div>
-              </div>
-
-              <button
-                type="button"
-                class="js-submit-ai-content-form btn btn-primary btn-block mt-20"
-              >
-                Generate
-              </button>
-            </form>
-
-            <div id="generatedTextContents" class="d-none"></div>
-
-            <div
-              class="js-image-generated mt-20 p-15 bg-info-light border-gray300 rounded-sm d-none"
-            >
-              <div class="">
-                <h4 class="font-14 text-gray">Generated Content</h4>
-                <p class="mt-1 text-gray font-12">
-                  Click on images to download them
+              <div class="js-for-service-fields form-group d-none">
+                <label class="input-label">Keyword</label>
+                <input type="text" name="keyword" class="js-ajax-keyword form-control" />
+                <div class="invalid-feedback"></div>
+                <p class="mt-1 font-12 text-gray">
+                  Describe in some words about what you want
                 </p>
               </div>
 
-              <div class="js-content mt-15 d-flex-center flex-wrap"></div>
+              <div class="form-group js-question-field d-none">
+                <label class="input-label">Question</label>
+                <input type="text" name="question" class="js-ajax-question form-control" />
+                <div class="invalid-feedback"></div>
+                <p class="mt-1 font-12 text-gray">Ask AI what you want</p>
+              </div>
+
+              <div class="js-service-length-field form-group d-none">
+                <label class="input-label">Length</label>
+                <input type="number" name="length" class="js-ajax-length form-control" min="1" max=""
+                  data-max-error="The maximum allowed is:" />
+                <div class="invalid-feedback"></div>
+              </div>
             </div>
+
+            <div class="js-image-templates-field d-none">
+              <div class="form-group mt-20">
+                <label class="input-label">Service</label>
+                <select name="image_service_id"
+                  class="js-ajax-image_service_id js-image-service-templates form-control">
+                  <option value="">Select a service</option>
+
+                  <option value="7">Genrate Image</option>
+
+                  <option value="custom_image">Custom Image</option>
+                </select>
+                <div class="invalid-feedback"></div>
+              </div>
+
+              <div class="form-group js-image-question-field d-none">
+                <label class="input-label">Question</label>
+                <input type="text" name="image_question" class="js-ajax-image_question form-control" />
+                <div class="invalid-feedback"></div>
+                <p class="mt-1 font-12 text-gray">Ask AI what you want</p>
+              </div>
+
+              <div class="js-image-keyword-field form-group d-none">
+                <label class="input-label">Keyword</label>
+                <input type="text" name="image_keyword" class="js-ajax-image_keyword form-control" />
+                <div class="invalid-feedback"></div>
+                <p class="mt-1 font-12 text-gray">
+                  Describe in some words about what you want
+                </p>
+              </div>
+
+              <div class="js-image-size-field form-group d-none">
+                <label class="input-label">Image Size</label>
+                <select name="image_size" class="js-ajax-image_size form-control">
+                  <option value="">Select Image Size</option>
+                  <option value="256">256x256</option>
+                  <option value="512">512x512</option>
+                  <option value="1024">1024x1024</option>
+                </select>
+                <div class="invalid-feedback"></div>
+              </div>
+            </div>
+
+            <button type="button" class="js-submit-ai-content-form btn btn-primary btn-block mt-20">
+              Generate
+            </button>
+          </form>
+
+          <div id="generatedTextContents" class="d-none"></div>
+
+          <div class="js-image-generated mt-20 p-15 bg-info-light border-gray300 rounded-sm d-none">
+            <div class="">
+              <h4 class="font-14 text-gray">Generated Content</h4>
+              <p class="mt-1 text-gray font-12">
+                Click on images to download them
+              </p>
+            </div>
+
+            <div class="js-content mt-15 d-flex-center flex-wrap"></div>
           </div>
         </div>
-        <div class="ai-content-generator-drawer-mask"></div>
-
-        <script src="https://traderdev.xepho.co.uk/assets/default/js/panel/ai-content-generator.min.js"></script>
-
-        <div class="main-sidebar">
-          <aside id="sidebar-wrapper">
-            <div class="sidebar-brand">
-              <a href="https://traderdev.xepho.co.uk/"> XEPHO LMS </a>
-            </div>
-            <div class="sidebar-brand sidebar-brand-sm">
-              <a href="https://traderdev.xepho.co.uk/"> XE </a>
-            </div>
-
-            <ul class="sidebar-menu">
-              <li class="">
-                <a href="https://traderdev.xepho.co.uk/admin" class="nav-link">
-                  <i class="fas fa-fire"></i>
-                  <span>Dashboard</span>
-                </a>
-              </li>
-
-              <li class="">
-                <a
-                  href="https://traderdev.xepho.co.uk/admin/marketing"
-                  class="nav-link"
-                >
-                  <i class="fas fa-chart-pie"></i>
-                  <span>Marketing Dashboard</span>
-                </a>
-              </li>
-
-              <li class="menu-header">Publishing</li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-graduation-cap"></i>
-                  <span>Courses</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/webinars?type=all"
-                      >Courses</a
-                    >
-                  </li>
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/upcoming_courses"
-                      >Upcoming Courses</a
-                    >
-                  </li>
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/quizzes"
-                    >
-                      <!--<i class="fas fa-file"></i>-->
-                      <span>Quizzes</span>
-                    </a>
-                  </li>
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/certificates"
-                      >Certificates</a
-                    >
-                  </li>
-                  <li class="">
-                    <a
-                      href="https://traderdev.xepho.co.uk/admin/assignments"
-                      class="nav-link"
-                    >
-                      <span>Assignments</span>
-                    </a>
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/webinars?type=webinar"
-                      >Live Classes</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/webinars?type=text_lesson"
-                      >Text Courses</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/webinars/create"
-                      >New Course</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/agora_history"
-                      >In-App live history</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/webinars/personal-notes"
-                      >Course Notes</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fa fa-gamepad"></i>
-                  <span>Gamification</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/users/badges"
-                    >
-                      <span>Custom Badges</span>
-                    </a>
-                  </li>
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/registration_bonus/history"
-                      >Registration Bonuses</a
-                    >
-                  </li>
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/rewards"
-                      >Rewards Points</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-user-plus"></i>
-                  <span>Enrollment</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/enrollments/history"
-                      >History</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/enrollments/add-student-to-class"
-                      >Add a learner to course
-                    </a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="">
-                <a
-                  href="https://traderdev.xepho.co.uk/admin/waitlists"
-                  class="nav-link"
-                >
-                  <i class="fas fa-user-graduate"></i>
-                  <span>Waitlists</span>
-                </a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-th"></i>
-                  <span>Categories</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/categories"
-                      >All categories</a
-                    >
-                  </li>
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/categories/create"
-                      >Add New category</a
-                    >
-                  </li>
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/categories/trends"
-                      >Trends</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="">
-                <a
-                  href="https://traderdev.xepho.co.uk/admin/reviews"
-                  class="nav-link"
-                >
-                  <i class="fas fa-star"></i>
-                  <span>Reviews</span>
-                </a>
-              </li>
-
-              <li class="menu-header">Meetings</li>
-
-              <li class="">
-                <a
-                  href="https://traderdev.xepho.co.uk/admin/consultants"
-                  class="nav-link"
-                >
-                  <i class="fas fa-id-card"></i>
-                  <span>Consultants</span>
-                </a>
-              </li>
-
-              <li class="">
-                <a
-                  class="nav-link"
-                  href="https://traderdev.xepho.co.uk/admin/appointments"
-                >
-                  <i class="fas fa-address-book"></i>
-                  <span>Meetings</span>
-                </a>
-              </li>
-
-              <li class="menu-header">Role Management</li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-users"></i>
-                  <span>Users</span>
-                </a>
-
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/users"
-                      >All Users</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/students"
-                      >Learners</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/instructors"
-                      >Instructors</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/organizations"
-                      >Organizations</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/users/create"
-                      >Add New User</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/users/not-access-to-content"
-                    >
-                      <span>Access Management</span>
-                    </a>
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link active"
-                      href="https://traderdev.xepho.co.uk/admin/roles"
-                      >Role Lists</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/roles/create"
-                      >Add New Role</a
-                    >
-                  </li>
-
-                  <!---->
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-sitemap"></i>
-                  <span>Groups</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/users/groups"
-                      >List</a
-                    >
-                  </li>
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/users/groups/create"
-                      >Add New Group</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="">
-                <a
-                  class="nav-link"
-                  href="https://traderdev.xepho.co.uk/admin/users/badges"
-                >
-                  <i class="fas fa-trophy"></i>
-                  <span>Badges</span>
-                </a>
-              </li>
-
-              <li class="menu-header">Community</li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-comment-dots"></i>
-                  <span>Forums</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/forums"
-                      >List</a
-                    >
-                  </li>
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/forums/create"
-                      >New</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="">
-                <a
-                  class="nav-link"
-                  href="https://traderdev.xepho.co.uk/admin/webinars/course_forums"
-                >
-                  <i class="fas fa-comment-alt"></i>
-                  <span>Course Forum</span>
-                </a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-clipboard-check"></i>
-                  <span>Course Notices</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/course-noticeboards"
-                      >List</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/course-noticeboards/send"
-                      >Add New notice</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="menu-header">CRM</li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-headphones"></i>
-                  <span>Support</span>
-                </a>
-
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/supports"
-                      >Tickets</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/supports/create"
-                      >New Ticket</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/supports/departments"
-                      >Ticket Types</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="">
-                <a
-                  class="nav-link"
-                  href="https://traderdev.xepho.co.uk/admin/supports?type=course_conversations"
-                >
-                  <i class="fas fa-envelope-square"></i>
-                  <span>Courses Support</span>
-                </a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link has-dropdown"
-                  ><i class="fas fa-comments"></i> <span>Comments</span></a
-                >
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/comments/webinars"
-                      >Course Comments</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/comments/blog"
-                      >Blog Comments</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="">
-                <a
-                  class="nav-link"
-                  href="https://traderdev.xepho.co.uk/admin/contacts"
-                >
-                  <i class="fas fa-phone-square"></i>
-                  <span>Contact Messages</span>
-                </a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link has-dropdown"
-                  ><i class="fas fa-info-circle"></i> <span>Reports</span></a
-                >
-
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/reports/webinars"
-                      >Courses</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/comments/webinars/reports"
-                      >Course Comments</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/comments/blog/reports"
-                      >Blog Comments</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/reports/reasons"
-                      >Report Reasons</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/reports/forum-topics"
-                      >Forum topics</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="menu-header">Content Management</li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-rss-square"></i>
-                  <span>Blog</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/blog"
-                      >Posts</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/blog/create"
-                      >New Post</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/blog/categories"
-                      >Categories</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-pager"></i>
-                  <span>Pages</span>
-                </a>
-
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/pages"
-                      >Additional pages</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/pages/create"
-                      >Add new page</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-address-card"></i>
-                  <span>Testimonials</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/testimonials"
-                      >List</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/testimonials/create"
-                      >New</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-map-marked"></i>
-                  <span>Localization</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/regions/countries"
-                      >Countries</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/regions/provinces"
-                      >Provinces</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/regions/cities"
-                      >Cities</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/regions/districts"
-                      >Districts</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="">
-                <a
-                  href="https://traderdev.xepho.co.uk/admin/tags"
-                  class="nav-link"
-                >
-                  <i class="fas fa-tags"></i>
-                  <span>Tags</span>
-                </a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-file-alt"></i>
-                  <span>Form Builder</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/forms/create"
-                      >New Form Builder</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/forms"
-                      >List</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/forms/submissions"
-                      >Submissions</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-robot"></i>
-                  <span>AI Content</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/ai-contents/lists"
-                      >Generated Contents</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/ai-contents/templates/create"
-                      >New Template</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/ai-contents/templates"
-                      >Service Template</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="menu-header">Financial</li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-file-invoice-dollar"></i>
-                  <span>Balances</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/financial/documents"
-                      >List</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/financial/documents/new"
-                      >Add New Balance</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item">
-                <a
-                  href="https://traderdev.xepho.co.uk/admin/financial/sales"
-                  class="nav-link"
-                >
-                  <i class="fas fa-list-ul"></i>
-                  <span>Sales List</span>
-                </a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link has-dropdown"
-                  ><i class="fas fa-credit-card"></i> <span>Payout</span></a
-                >
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      href="https://traderdev.xepho.co.uk/admin/financial/payouts?payout=requests"
-                      class="nav-link"
-                    >
-                      <span>Requests</span>
-                    </a>
-                  </li>
-
-                  <li class="">
-                    <a
-                      href="https://traderdev.xepho.co.uk/admin/financial/payouts?payout=history"
-                      class="nav-link"
-                    >
-                      <span>History</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="dropdown"
-                >
-                  <i class="fas fa-cart-plus"></i>
-                  <span>Subscriptions</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/financial/subscribes"
-                      >Packages</a
-                    >
-                  </li>
-
-                  <li class="">
-                    <a
-                      class="nav-link"
-                      href="https://traderdev.xepho.co.uk/admin/financial/subscribes/new"
-                      >New Package</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="menu-header nav-item menu-dropdown px-0">
-                <a
-                  href="#"
-                  class="nav-link has-dropdown"
-                  data-toggle="menu-dropdown"
-                >
-                  <span>Marketing</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item dropdown">
-                    <a
-                      href="#"
-                      class="nav-link has-dropdown"
-                      data-toggle="dropdown"
-                    >
-                      <i class="fas fa-percent"></i>
-                      <span>Discounts &amp; Promotions</span>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li class="">
-                        <a
-                          class="nav-link"
-                          href="https://traderdev.xepho.co.uk/admin/financial/special_offers"
-                          >Course Discounts</a
-                        >
-                      </li>
-                      <li class="">
-                        <a
-                          class="nav-link"
-                          href="https://traderdev.xepho.co.uk/admin/gifts"
-                          >Gifts</a
-                        >
-                      </li>
-                      <li class="">
-                        <a
-                          class="nav-link"
-                          href="https://traderdev.xepho.co.uk/admin/financial/discounts"
-                          >Coupons</a
-                        >
-                      </li>
-
-                      <li class="">
-                        <a
-                          class="nav-link"
-                          href="https://traderdev.xepho.co.uk/admin/financial/discounts/new"
-                          >New</a
-                        >
-                      </li>
-
-                      <li class="">
-                        <a
-                          class="nav-link"
-                          href="https://traderdev.xepho.co.uk/admin/financial/discounts?instructor_coupons=1"
-                          >Instructor Coupons</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li>
-                    <a
-                      href="https://traderdev.xepho.co.uk/admin/#"
-                      class="nav-link"
-                    >
-                      <i class="fa fa-fire"></i>
-                      <span>Sales Pop-up</span>
-                    </a>
-                  </li>
-
-                  <li class="nav-item dropdown">
-                    <a
-                      href="#"
-                      class="nav-link has-dropdown"
-                      data-toggle="dropdown"
-                    >
-                      <i class="fa fa-bullhorn"></i>
-                      <span>Affiliate</span>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li class="">
-                        <a
-                          class="nav-link"
-                          href="https://traderdev.xepho.co.uk/admin/referrals/history"
-                          >History</a
-                        >
-                      </li>
-
-                      <li class="">
-                        <a
-                          class="nav-link"
-                          href="https://traderdev.xepho.co.uk/admin/referrals/users"
-                          >Affiliate Users</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li class="nav-item dropdown">
-                    <a
-                      href="#"
-                      class="nav-link has-dropdown"
-                      data-toggle="dropdown"
-                    >
-                      <i class="fas fa-cogs"></i>
-                      <span>Ad Settings</span>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li class="">
-                        <a
-                          class="nav-link"
-                          href="https://traderdev.xepho.co.uk/admin/advertising/banners"
-                          >Ad Banners</a
-                        >
-                      </li>
-
-                      <li class="">
-                        <a
-                          class="nav-link"
-                          href="https://traderdev.xepho.co.uk/admin/advertising/banners/new"
-                          >Add new Ad.Banner</a
-                        >
-                      </li>
-
-                      <li class="nav-item">
-                        <a
-                          href="https://traderdev.xepho.co.uk/admin/advertising_modal"
-                          class="nav-link"
-                        >
-                          <span>Advertising Modal</span>
-                        </a>
-                      </li>
-
-                      <li class="nav-item">
-                        <a
-                          href="https://traderdev.xepho.co.uk/admin/floating_bars"
-                          class="nav-link"
-                        >
-                          <span>Top/Bottom Bar</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li class="nav-item dropdown">
-                    <a
-                      href="#"
-                      class="nav-link has-dropdown"
-                      data-toggle="dropdown"
-                    >
-                      <i class="fas fa-newspaper"></i>
-                      <span>Email Newsletter</span>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li class="">
-                        <a
-                          class="nav-link"
-                          href="https://traderdev.xepho.co.uk/admin/newsletters"
-                          >List</a
-                        >
-                      </li>
-
-                      <li class="">
-                        <a
-                          class="nav-link"
-                          href="https://traderdev.xepho.co.uk/admin/newsletters/send"
-                          >Send</a
-                        >
-                      </li>
-
-                      <li class="">
-                        <a
-                          class="nav-link"
-                          href="https://traderdev.xepho.co.uk/admin/newsletters/history"
-                          >History</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="menu-header">Settings</li>
-
-              <li class="nav-item">
-                <a
-                  href="https://traderdev.xepho.co.uk/admin/settings"
-                  class="nav-link"
-                >
-                  <i class="fas fa-cogs"></i>
-                  <span>Settings</span>
-                </a>
-              </li>
-
-              <li>
-                <a
-                  class="nav-link"
-                  href="https://traderdev.xepho.co.uk/admin/logout"
-                >
-                  <i class="fas fa-sign-out-alt"></i>
-                  <span>Logout</span>
-                </a>
-              </li>
-            </ul>
-            <br /><br /><br />
-          </aside>
-        </div>
-
-        <div class="main-content">
-          <section class="section">
-            <div class="row">
-              <div class="col-12 mb-4">
-                <div
-                  class="hero text-white hero-bg-image hero-bg"
-                  data-background="/store/1/default_images/admin_dashboard.jpg"
-                >
-                  <div class="hero-inner">
-                    <h2>Welcome, David Trevor!</h2>
-
-                    <div
-                      class="d-flex flex-column flex-lg-row align-items-center justify-content-between"
-                    >
-                      <div>
-                        <p class="lead">
-                          Everything is in your control, use quick access
-                          buttons to manage related actions easily.
-                        </p>
-
-                        <div class="mt-2 mb-2 d-flex flex-column flex-md-row">
-                          <a
-                            href="https://traderdev.xepho.co.uk/admin/comments/webinars"
-                            class="mt-2 mt-md-0 btn btn-outline-white btn-lg btn-icon icon-left ml-0 ml-md-2"
-                            ><i class="far fa-comment"></i>Comments
-                          </a>
-                          <a
-                            href="https://traderdev.xepho.co.uk/admin/supports"
-                            class="mt-2 mt-md-0 btn btn-outline-white btn-lg btn-icon icon-left ml-0 ml-md-2"
-                            ><i class="far fa-envelope"></i>tickets</a
-                          >
-                          <a
-                            href="https://traderdev.xepho.co.uk/admin/reports/webinars"
-                            class="mt-2 mt-md-0 btn btn-outline-white btn-lg btn-icon icon-left ml-0 ml-md-2"
-                            ><i class="fas fa-info"></i>Reports</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="card card-statistic-2">
-                  <div class="card-stats">
-                    <div class="card-stats-title">Course Type Daily Sales</div>
-
-                    <div class="card-stats-items">
-                      <div class="card-stats-item">
-                        <div class="card-stats-item-count">0</div>
-                        <div class="card-stats-item-label">Live Class</div>
-                      </div>
-
-                      <div class="card-stats-item">
-                        <div class="card-stats-item-count">0</div>
-                        <div class="card-stats-item-label">Course</div>
-                      </div>
-
-                      <div class="card-stats-item">
-                        <div class="card-stats-item-count">0</div>
-                        <div class="card-stats-item-label">Meeting</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-icon shadow-primary bg-primary">
-                    <i class="fas fa-archive"></i>
-                  </div>
-                  <div class="card-wrap">
-                    <div class="card-header">
-                      <h4>Today Sales</h4>
-                    </div>
-                    <div class="card-body">0</div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="card card-statistic-2">
-                  <div class="card-stats">
-                    <div class="card-stats-title">Platform Income</div>
-
-                    <div class="card-stats-items">
-                      <div class="card-stats-item">
-                        <div class="card-stats-item-count">0</div>
-                        <div class="card-stats-item-label">Today</div>
-                      </div>
-
-                      <div class="card-stats-item">
-                        <div class="card-stats-item-count">$18</div>
-                        <div class="card-stats-item-label">Month</div>
-                      </div>
-
-                      <div class="card-stats-item">
-                        <div class="card-stats-item-count">$18</div>
-                        <div class="card-stats-item-label">Year</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-icon shadow-primary bg-primary">
-                    <i class="fas fa-dollar-sign"></i>
-                  </div>
-                  <div class="card-wrap">
-                    <div class="card-header">
-                      <h4>Total Income</h4>
-                    </div>
-                    <div class="card-body">$18</div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="card card-statistic-2">
-                  <div class="card-stats">
-                    <div class="card-stats-title">Sales Count</div>
-
-                    <div class="card-stats-items">
-                      <div class="card-stats-item">
-                        <div class="card-stats-item-count">0</div>
-                        <div class="card-stats-item-label">Today</div>
-                      </div>
-                      <div class="card-stats-item">
-                        <div class="card-stats-item-count">2</div>
-                        <div class="card-stats-item-label">Month</div>
-                      </div>
-                      <div class="card-stats-item">
-                        <div class="card-stats-item-count">8</div>
-                        <div class="card-stats-item-label">Year</div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="card-icon shadow-primary bg-primary">
-                    <i class="fas fa-shopping-cart"></i>
-                  </div>
-
-                  <div class="card-wrap">
-                    <div class="card-header">
-                      <h4>Total Sales</h4>
-                    </div>
-                    <div class="card-body">8</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <a
-                  href="https://traderdev.xepho.co.uk/admin/financial/sales"
-                  class="card card-statistic-1"
-                >
-                  <div class="card-icon bg-primary">
-                    <i class="fas fa-shopping-cart"></i>
-                  </div>
-                  <div class="card-wrap">
-                    <div class="card-header">
-                      <h4>New Sale</h4>
-                    </div>
-                    <div class="card-body">8</div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <a
-                  href="https://traderdev.xepho.co.uk/admin/comments/webinars"
-                  class="card card-statistic-1"
-                >
-                  <div class="card-icon bg-danger">
-                    <i class="fas fa-comment"></i>
-                  </div>
-                  <div class="card-wrap">
-                    <div class="card-header">
-                      <h4>New Comment</h4>
-                    </div>
-                    <div class="card-body">0</div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <a
-                  href="https://traderdev.xepho.co.uk/admin/supports"
-                  class="card card-statistic-1"
-                >
-                  <div class="card-icon bg-warning">
-                    <i class="far fa-envelope"></i>
-                  </div>
-                  <div class="card-wrap">
-                    <div class="card-header">
-                      <h4>New Support Ticket</h4>
-                    </div>
-                    <div class="card-body">0</div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <a class="card card-statistic-1">
-                  <div class="card-icon bg-success">
-                    <i class="fas fa-eye"></i>
-                  </div>
-                  <div class="card-wrap">
-                    <div class="card-header">
-                      <h4>Pending Review Courses</h4>
-                    </div>
-                    <div class="card-body">0</div>
-                  </div>
-                </a>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-8 col-md-12 col-12 col-sm-12">
-                <div class="card">
-                  <div class="card-header">
-                    <h4>Sales Statistics</h4>
-                    <div class="card-header-action">
-                      <div class="btn-group">
-                        <button type="button" class="js-sale-chart-month btn">
-                          Month
-                        </button>
-                        <button
-                          type="button"
-                          class="js-sale-chart-year btn btn-primary"
-                        >
-                          Year
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="position-relative">
-                          <canvas id="saleStatisticsChart"></canvas>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="statistic-details mt-4 position-relative">
-                          <div class="statistic-details-item">
-                            <span class="text-muted">
-                              <span class="text-primary"
-                                ><i class="fas fa-caret-up"></i
-                              ></span>
-
-                              No previous value
-                            </span>
-
-                            <div class="detail-value">0</div>
-                            <div class="detail-name">Today Sales</div>
-                          </div>
-                          <div class="statistic-details-item">
-                            <span class="text-muted">
-                              <span class="text-primary"
-                                ><i class="fas fa-caret-up"></i
-                              ></span>
-
-                              No previous value
-                            </span>
-
-                            <div class="detail-value">0</div>
-                            <div class="detail-name">Week Sales</div>
-                          </div>
-                          <div class="statistic-details-item">
-                            <span class="text-muted">
-                              <span class="text-primary"
-                                ><i class="fas fa-caret-up"></i
-                              ></span>
-
-                              No previous value
-                            </span>
-
-                            <div class="detail-value">$66</div>
-                            <div class="detail-name">Month Sales</div>
-                          </div>
-                          <div class="statistic-details-item">
-                            <span class="text-muted">
-                              <span class="text-primary"
-                                ><i class="fas fa-caret-up"></i
-                              ></span>
-
-                              No previous value
-                            </span>
-
-                            <div class="detail-value">$66</div>
-                            <div class="detail-name">Year Sales</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-12 col-12 col-sm-12 pb-30">
-                <div class="card h-100">
-                  <div class="card-header">
-                    <h4>Recent Comments</h4>
-                  </div>
-
-                  <div
-                    class="card-body d-flex flex-column justify-content-between"
-                  >
-                    <ul class="list-unstyled list-unstyled-border"></ul>
-
-                    <div class="text-center pt-1 pb-1">
-                      <a
-                        href="https://traderdev.xepho.co.uk/admin/comments/webinars"
-                        class="btn btn-primary btn-lg btn-round"
-                      >
-                        View All
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card card-hero">
-                  <div class="card-header">
-                    <div class="card-icon">
-                      <i class="fas fa-envelope"></i>
-                    </div>
-                    <h5>Recent Support Tickets</h5>
-                    <div class="card-description">0 Pending Reply</div>
-                  </div>
-
-                  <div class="card-body p-0">
-                    <div class="tickets-list">
-                      <a
-                        href="https://traderdev.xepho.co.uk/admin/supports"
-                        class="ticket-item ticket-more"
-                      >
-                        View All <i class="fas fa-chevron-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card card-hero">
-                  <div class="card-header">
-                    <div class="card-icon">
-                      <i class="fas fa-users"></i>
-                    </div>
-                    <h5>Recent Live Classes</h5>
-                    <div class="card-description">0 Pending Review</div>
-                  </div>
-                  <div class="card-body p-0">
-                    <div class="tickets-list">
-                      <a
-                        href="https://traderdev.xepho.co.uk/admin/webinars/2029/edit"
-                        class="ticket-item"
-                      >
-                        <div class="ticket-title">
-                          <h4>First Real Webinar</h4>
-                        </div>
-
-                        <div class="ticket-info">
-                          <div>Instructor Request</div>
-                          <div class="bullet"></div>
-                          <span class="text-success">Publish</span>
-                          <span class="text-success text-small font-600-bold"
-                            >(Finished)</span
-                          >
-                        </div>
-                      </a>
-
-                      <a
-                        href="https://traderdev.xepho.co.uk/admin/webinars?type=webinar"
-                        class="ticket-item ticket-more"
-                      >
-                        View All <i class="fas fa-chevron-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card card-hero">
-                  <div class="card-header">
-                    <div class="card-icon">
-                      <i class="fas fa-play-circle"></i>
-                    </div>
-                    <h5>Recent Courses</h5>
-                    <div class="card-description">0 Pending Review</div>
-                  </div>
-                  <div class="card-body p-0">
-                    <div class="tickets-list">
-                      <a
-                        href="https://traderdev.xepho.co.uk/admin/webinars/2027/edit"
-                        class="ticket-item"
-                      >
-                        <div class="ticket-title">
-                          <h4>Random Test</h4>
-                        </div>
-
-                        <div class="ticket-info">
-                          <div>Victor Test</div>
-                          <div class="bullet"></div>
-                          <span class="text-success">Publish</span>
-                          <span class="text-success text-small font-600-bold"
-                            >(Finished)</span
-                          >
-                        </div>
-                      </a>
-                      <a
-                        href="https://traderdev.xepho.co.uk/admin/webinars/2026/edit"
-                        class="ticket-item"
-                      >
-                        <div class="ticket-title">
-                          <h4>Third Video Course</h4>
-                        </div>
-
-                        <div class="ticket-info">
-                          <div>Victor Okonkwo</div>
-                          <div class="bullet"></div>
-                          <span class="text-success">Publish</span>
-                          <span class="text-success text-small font-600-bold"
-                            >(Finished)</span
-                          >
-                        </div>
-                      </a>
-                      <a
-                        href="https://traderdev.xepho.co.uk/admin/webinars/2023/edit"
-                        class="ticket-item"
-                      >
-                        <div class="ticket-title">
-                          <h4>First Video Course</h4>
-                        </div>
-
-                        <div class="ticket-info">
-                          <div>Victor Okonkwo</div>
-                          <div class="bullet"></div>
-                          <span class="text-success">Publish</span>
-                          <span class="text-success text-small font-600-bold"
-                            >(Finished)</span
-                          >
-                        </div>
-                      </a>
-
-                      <a
-                        href="https://traderdev.xepho.co.uk/admin/webinars?type=course"
-                        class="ticket-item ticket-more"
-                      >
-                        View All <i class="fas fa-chevron-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-12 col-sm-12">
-                <div class="card">
-                  <div class="card-header">
-                    <h4>User Registration Statistics</h4>
-                    <div class="card-header-action">
-                      <div class="btn-group"></div>
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="position-relative">
-                          <canvas id="usersStatisticsChart"></canvas>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
+      </div>
+      <div class="ai-content-generator-drawer-mask"></div>
+      <!-- =======================================================  -->
+      <script src="https://traderdev.xepho.co.uk/assets/default/js/panel/ai-content-generator.min.js"></script>
+
+      <!-- ================ Sidebar  -->
+      <div class="main-sidebar">
+        <aside id="sidebar-wrapper">
+          <div class="sidebar-brand">
+            <a href="https://traderdev.xepho.co.uk/"> XEPHO LMS </a>
+          </div>
+          <div class="sidebar-brand sidebar-brand-sm">
+            <a href="https://traderdev.xepho.co.uk/"> XE </a>
+          </div>
+
+          <ul class="sidebar-menu">
+            <li class="">
+              <a href="https://traderdev.xepho.co.uk/admin" class="nav-link">
+                <i class="fas fa-fire"></i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+
+            <li class="">
+              <a href="https://traderdev.xepho.co.uk/admin/marketing" class="nav-link">
+                <i class="fas fa-chart-pie"></i>
+                <span>Marketing Dashboard</span>
+              </a>
+            </li>
+
+            <li class="menu-header">Publishing</li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Courses</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/webinars?type=all">Courses</a>
+                </li>
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/upcoming_courses">Upcoming Courses</a>
+                </li>
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/quizzes">
+                    <!--<i class="fas fa-file"></i>-->
+                    <span>Quizzes</span>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/certificates">Certificates</a>
+                </li>
+                <li class="">
+                  <a href="https://traderdev.xepho.co.uk/admin/assignments" class="nav-link">
+                    <span>Assignments</span>
+                  </a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/webinars?type=webinar">Live Classes</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/webinars?type=text_lesson">Text
+                    Courses</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/webinars/create">New Course</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/agora_history">In-App live history</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/webinars/personal-notes">Course
+                    Notes</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fa fa-gamepad"></i>
+                <span>Gamification</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/users/badges">
+                    <span>Custom Badges</span>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/registration_bonus/history">Registration
+                    Bonuses</a>
+                </li>
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/rewards">Rewards Points</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-user-plus"></i>
+                <span>Enrollment</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/enrollments/history">History</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/enrollments/add-student-to-class">Add a
+                    learner to course
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="">
+              <a href="https://traderdev.xepho.co.uk/admin/waitlists" class="nav-link">
+                <i class="fas fa-user-graduate"></i>
+                <span>Waitlists</span>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-th"></i>
+                <span>Categories</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/categories">All categories</a>
+                </li>
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/categories/create">Add New category</a>
+                </li>
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/categories/trends">Trends</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="">
+              <a href="https://traderdev.xepho.co.uk/admin/reviews" class="nav-link">
+                <i class="fas fa-star"></i>
+                <span>Reviews</span>
+              </a>
+            </li>
+
+            <li class="menu-header">Meetings</li>
+
+            <li class="">
+              <a href="https://traderdev.xepho.co.uk/admin/consultants" class="nav-link">
+                <i class="fas fa-id-card"></i>
+                <span>Consultants</span>
+              </a>
+            </li>
+
+            <li class="">
+              <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/appointments">
+                <i class="fas fa-address-book"></i>
+                <span>Meetings</span>
+              </a>
+            </li>
+
+            <li class="menu-header">Role Management</li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-users"></i>
+                <span>Users</span>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/users">All Users</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/students">Learners</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/instructors">Instructors</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/organizations">Organizations</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/users/create">Add New User</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/users/not-access-to-content">
+                    <span>Access Management</span>
+                  </a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link active" href="https://traderdev.xepho.co.uk/admin/roles">Role Lists</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/roles/create">Add New Role</a>
+                </li>
+
+                <!---->
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-sitemap"></i>
+                <span>Groups</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/users/groups">List</a>
+                </li>
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/users/groups/create">Add New Group</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="">
+              <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/users/badges">
+                <i class="fas fa-trophy"></i>
+                <span>Badges</span>
+              </a>
+            </li>
+
+            <li class="menu-header">Community</li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-comment-dots"></i>
+                <span>Forums</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/forums">List</a>
+                </li>
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/forums/create">New</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="">
+              <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/webinars/course_forums">
+                <i class="fas fa-comment-alt"></i>
+                <span>Course Forum</span>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-clipboard-check"></i>
+                <span>Course Notices</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/course-noticeboards">List</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/course-noticeboards/send">Add New
+                    notice</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-header">CRM</li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-headphones"></i>
+                <span>Support</span>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/supports">Tickets</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/supports/create">New Ticket</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/supports/departments">Ticket Types</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="">
+              <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/supports?type=course_conversations">
+                <i class="fas fa-envelope-square"></i>
+                <span>Courses Support</span>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown"><i class="fas fa-comments"></i> <span>Comments</span></a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/comments/webinars">Course Comments</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/comments/blog">Blog Comments</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="">
+              <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/contacts">
+                <i class="fas fa-phone-square"></i>
+                <span>Contact Messages</span>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown"><i class="fas fa-info-circle"></i> <span>Reports</span></a>
+
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/reports/webinars">Courses</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/comments/webinars/reports">Course
+                    Comments</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/comments/blog/reports">Blog Comments</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/reports/reasons">Report Reasons</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/reports/forum-topics">Forum topics</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-header">Content Management</li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-rss-square"></i>
+                <span>Blog</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/blog">Posts</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/blog/create">New Post</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/blog/categories">Categories</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-pager"></i>
+                <span>Pages</span>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/pages">Additional pages</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/pages/create">Add new page</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-address-card"></i>
+                <span>Testimonials</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/testimonials">List</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/testimonials/create">New</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-map-marked"></i>
+                <span>Localization</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/regions/countries">Countries</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/regions/provinces">Provinces</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/regions/cities">Cities</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/regions/districts">Districts</a>
+                </li>
+              </ul>
+            </li>
+            <li class="">
+              <a href="https://traderdev.xepho.co.uk/admin/tags" class="nav-link">
+                <i class="fas fa-tags"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-file-alt"></i>
+                <span>Form Builder</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/forms/create">New Form Builder</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/forms">List</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/forms/submissions">Submissions</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-robot"></i>
+                <span>AI Content</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/ai-contents/lists">Generated
+                    Contents</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/ai-contents/templates/create">New
+                    Template</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/ai-contents/templates">Service
+                    Template</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-header">Financial</li>
+
+            <!-- Balance dropdown under financial -->
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown">
+                <i class="fas fa-file-invoice-dollar"></i>
+                <span>Balances</span>
+              </a>
+              <ul class="dropdown-menu">
+                <!--  -->
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/financial/documents">
+                    List
+                  </a>
+                </li>
+                <!--  -->
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/financial/documents/new">
+                    Add New Balance
+                  </a>
+                </li>
+                <!--  -->
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/financial/sales" class="nav-link">
+                    Span List
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!-- Payout dropdown under financial -->
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown"><i class="fas fa-credit-card"></i> <span>Payout</span></a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a href="https://traderdev.xepho.co.uk/admin/financial/payouts?payout=requests" class="nav-link">
+                    <span>Requests</span>
+                  </a>
+                </li>
+
+                <li class="">
+                  <a href="https://traderdev.xepho.co.uk/admin/financial/payouts?payout=history" class="nav-link">
+                    <span>History</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!-- Subscription dropdown under financial -->
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-cart-plus"></i>
+                <span>Subscriptions</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/financial/subscribes">Packages</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/financial/subscribes/new">New
+                    Package</a>
+                </li>
+              </ul>
+            </li>
+
+
+            <li class="menu-header">Marketing</li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-percent"></i>
+                <span>Discounts &amp; Promotions</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/financial/special_offers">Course
+                    Discounts</a>
+                </li>
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/gifts">Gifts</a>
+                </li>
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/financial/discounts">Coupons</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/financial/discounts/new">New</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link"
+                    href="https://traderdev.xepho.co.uk/admin/financial/discounts?instructor_coupons=1">Instructor
+                    Coupons</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="https://traderdev.xepho.co.uk/admin/#" class="nav-link">
+                <i class="fa fa-fire"></i>
+                <span>Sales Pop-up</span>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fa fa-bullhorn"></i>
+                <span>Affiliate</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/referrals/history">History</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/referrals/users">Affiliate Users</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-cogs"></i>
+                <span>Ad Settings</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/advertising/banners">Ad Banners</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/advertising/banners/new">Add new
+                    Ad.Banner</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="https://traderdev.xepho.co.uk/admin/advertising_modal" class="nav-link">
+                    <span>Advertising Modal</span>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="https://traderdev.xepho.co.uk/admin/floating_bars" class="nav-link">
+                    <span>Top/Bottom Bar</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">
+                <i class="fas fa-newspaper"></i>
+                <span>Email Newsletter</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/newsletters">List</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/newsletters/send">Send</a>
+                </li>
+
+                <li class="">
+                  <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/newsletters/history">History</a>
+                </li>
+              </ul>
+            </li>
+
+
+            <li class="menu-header">Settings</li>
+
+            <li class="nav-item">
+              <a href="https://traderdev.xepho.co.uk/admin/settings" class="nav-link">
+                <i class="fas fa-cogs"></i>
+                <span>Settings</span>
+              </a>
+            </li>
+
+            <li>
+              <a class="nav-link" href="https://traderdev.xepho.co.uk/admin/logout">
+                <i class="fas fa-sign-out-alt"></i>
+                <span>Logout</span>
+              </a>
+            </li>
+          </ul>
+          <br /><br /><br />
+        </aside>
       </div>
 
-      <div
-        class="modal fade"
-        id="fileViewModal"
-        tabindex="-1"
-        aria-labelledby="fileViewModal"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
+      <div class="main-content">
+        <section class="section">
+          <div class="row">
+            <div class="col-12 mb-4">
+              <div class="hero text-white hero-bg-image hero-bg"
+                data-background="/store/1/default_images/admin_dashboard.jpg">
+                <div class="hero-inner">
+                  <h2>Welcome, David Trevor!</h2>
+
+                  <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between">
+                    <div>
+                      <p class="lead">
+                        Everything is in your control, use quick access
+                        buttons to manage related actions easily.
+                      </p>
+
+                      <div class="mt-2 mb-2 d-flex flex-column flex-md-row">
+                        <a href="https://traderdev.xepho.co.uk/admin/comments/webinars"
+                          class="mt-2 mt-md-0 btn btn-outline-white btn-lg btn-icon icon-left ml-0 ml-md-2"><i
+                            class="far fa-comment"></i>Comments
+                        </a>
+                        <a href="https://traderdev.xepho.co.uk/admin/supports"
+                          class="mt-2 mt-md-0 btn btn-outline-white btn-lg btn-icon icon-left ml-0 ml-md-2"><i
+                            class="far fa-envelope"></i>tickets</a>
+                        <a href="https://traderdev.xepho.co.uk/admin/reports/webinars"
+                          class="mt-2 mt-md-0 btn btn-outline-white btn-lg btn-icon icon-left ml-0 ml-md-2"><i
+                            class="fas fa-info"></i>Reports</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="card card-statistic-2">
+                <div class="card-stats">
+                  <div class="card-stats-title">Course Type Daily Sales</div>
+
+                  <div class="card-stats-items">
+                    <div class="card-stats-item">
+                      <div class="card-stats-item-count">0</div>
+                      <div class="card-stats-item-label">Live Class</div>
+                    </div>
+
+                    <div class="card-stats-item">
+                      <div class="card-stats-item-count">0</div>
+                      <div class="card-stats-item-label">Course</div>
+                    </div>
+
+                    <div class="card-stats-item">
+                      <div class="card-stats-item-count">0</div>
+                      <div class="card-stats-item-label">Meeting</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-icon shadow-primary bg-primary">
+                  <i class="fas fa-archive"></i>
+                </div>
+                <div class="card-wrap">
+                  <div class="card-header">
+                    <h4>Today Sales</h4>
+                  </div>
+                  <div class="card-body">0</div>
+                </div>
+              </div>
             </div>
 
-            <div class="modal-body">
-              <img src="" class="w-100" height="350px" alt="" />
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="card card-statistic-2">
+                <div class="card-stats">
+                  <div class="card-stats-title">Platform Income</div>
+
+                  <div class="card-stats-items">
+                    <div class="card-stats-item">
+                      <div class="card-stats-item-count">0</div>
+                      <div class="card-stats-item-label">Today</div>
+                    </div>
+
+                    <div class="card-stats-item">
+                      <div class="card-stats-item-count">$18</div>
+                      <div class="card-stats-item-label">Month</div>
+                    </div>
+
+                    <div class="card-stats-item">
+                      <div class="card-stats-item-count">$18</div>
+                      <div class="card-stats-item-label">Year</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-icon shadow-primary bg-primary">
+                  <i class="fas fa-dollar-sign"></i>
+                </div>
+                <div class="card-wrap">
+                  <div class="card-header">
+                    <h4>Total Income</h4>
+                  </div>
+                  <div class="card-body">$18</div>
+                </div>
+              </div>
             </div>
 
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="card card-statistic-2">
+                <div class="card-stats">
+                  <div class="card-stats-title">Sales Count</div>
+
+                  <div class="card-stats-items">
+                    <div class="card-stats-item">
+                      <div class="card-stats-item-count">0</div>
+                      <div class="card-stats-item-label">Today</div>
+                    </div>
+                    <div class="card-stats-item">
+                      <div class="card-stats-item-count">2</div>
+                      <div class="card-stats-item-label">Month</div>
+                    </div>
+                    <div class="card-stats-item">
+                      <div class="card-stats-item-count">8</div>
+                      <div class="card-stats-item-label">Year</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-icon shadow-primary bg-primary">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+
+                <div class="card-wrap">
+                  <div class="card-header">
+                    <h4>Total Sales</h4>
+                  </div>
+                  <div class="card-body">8</div>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <a href="https://traderdev.xepho.co.uk/admin/financial/sales" class="card card-statistic-1">
+                <div class="card-icon bg-primary">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="card-wrap">
+                  <div class="card-header">
+                    <h4>New Sale</h4>
+                  </div>
+                  <div class="card-body">8</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <a href="https://traderdev.xepho.co.uk/admin/comments/webinars" class="card card-statistic-1">
+                <div class="card-icon bg-danger">
+                  <i class="fas fa-comment"></i>
+                </div>
+                <div class="card-wrap">
+                  <div class="card-header">
+                    <h4>New Comment</h4>
+                  </div>
+                  <div class="card-body">0</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <a href="https://traderdev.xepho.co.uk/admin/supports" class="card card-statistic-1">
+                <div class="card-icon bg-warning">
+                  <i class="far fa-envelope"></i>
+                </div>
+                <div class="card-wrap">
+                  <div class="card-header">
+                    <h4>New Support Ticket</h4>
+                  </div>
+                  <div class="card-body">0</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <a class="card card-statistic-1">
+                <div class="card-icon bg-success">
+                  <i class="fas fa-eye"></i>
+                </div>
+                <div class="card-wrap">
+                  <div class="card-header">
+                    <h4>Pending Review Courses</h4>
+                  </div>
+                  <div class="card-body">0</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-8 col-md-12 col-12 col-sm-12">
+              <div class="card">
+                <div class="card-header">
+                  <h4>Sales Statistics</h4>
+                  <div class="card-header-action">
+                    <div class="btn-group">
+                      <button type="button" class="js-sale-chart-month btn">
+                        Month
+                      </button>
+                      <button type="button" class="js-sale-chart-year btn btn-primary">
+                        Year
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="position-relative">
+                        <canvas id="saleStatisticsChart"></canvas>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="statistic-details mt-4 position-relative">
+                        <div class="statistic-details-item">
+                          <span class="text-muted">
+                            <span class="text-primary"><i class="fas fa-caret-up"></i></span>
+
+                            No previous value
+                          </span>
+
+                          <div class="detail-value">0</div>
+                          <div class="detail-name">Today Sales</div>
+                        </div>
+                        <div class="statistic-details-item">
+                          <span class="text-muted">
+                            <span class="text-primary"><i class="fas fa-caret-up"></i></span>
+
+                            No previous value
+                          </span>
+
+                          <div class="detail-value">0</div>
+                          <div class="detail-name">Week Sales</div>
+                        </div>
+                        <div class="statistic-details-item">
+                          <span class="text-muted">
+                            <span class="text-primary"><i class="fas fa-caret-up"></i></span>
+
+                            No previous value
+                          </span>
+
+                          <div class="detail-value">$66</div>
+                          <div class="detail-name">Month Sales</div>
+                        </div>
+                        <div class="statistic-details-item">
+                          <span class="text-muted">
+                            <span class="text-primary"><i class="fas fa-caret-up"></i></span>
+
+                            No previous value
+                          </span>
+
+                          <div class="detail-value">$66</div>
+                          <div class="detail-name">Year Sales</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-12 col-sm-12 pb-30">
+              <div class="card h-100">
+                <div class="card-header">
+                  <h4>Recent Comments</h4>
+                </div>
+
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <ul class="list-unstyled list-unstyled-border"></ul>
+
+                  <div class="text-center pt-1 pb-1">
+                    <a href="https://traderdev.xepho.co.uk/admin/comments/webinars"
+                      class="btn btn-primary btn-lg btn-round">
+                      View All
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-hero">
+                <div class="card-header">
+                  <div class="card-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <h5>Recent Support Tickets</h5>
+                  <div class="card-description">0 Pending Reply</div>
+                </div>
+
+                <div class="card-body p-0">
+                  <div class="tickets-list">
+                    <a href="https://traderdev.xepho.co.uk/admin/supports" class="ticket-item ticket-more">
+                      View All <i class="fas fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card card-hero">
+                <div class="card-header">
+                  <div class="card-icon">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <h5>Recent Live Classes</h5>
+                  <div class="card-description">0 Pending Review</div>
+                </div>
+                <div class="card-body p-0">
+                  <div class="tickets-list">
+                    <a href="https://traderdev.xepho.co.uk/admin/webinars/2029/edit" class="ticket-item">
+                      <div class="ticket-title">
+                        <h4>First Real Webinar</h4>
+                      </div>
+
+                      <div class="ticket-info">
+                        <div>Instructor Request</div>
+                        <div class="bullet"></div>
+                        <span class="text-success">Publish</span>
+                        <span class="text-success text-small font-600-bold">(Finished)</span>
+                      </div>
+                    </a>
+
+                    <a href="https://traderdev.xepho.co.uk/admin/webinars?type=webinar" class="ticket-item ticket-more">
+                      View All <i class="fas fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card card-hero">
+                <div class="card-header">
+                  <div class="card-icon">
+                    <i class="fas fa-play-circle"></i>
+                  </div>
+                  <h5>Recent Courses</h5>
+                  <div class="card-description">0 Pending Review</div>
+                </div>
+                <div class="card-body p-0">
+                  <div class="tickets-list">
+                    <a href="https://traderdev.xepho.co.uk/admin/webinars/2027/edit" class="ticket-item">
+                      <div class="ticket-title">
+                        <h4>Random Test</h4>
+                      </div>
+
+                      <div class="ticket-info">
+                        <div>Victor Test</div>
+                        <div class="bullet"></div>
+                        <span class="text-success">Publish</span>
+                        <span class="text-success text-small font-600-bold">(Finished)</span>
+                      </div>
+                    </a>
+                    <a href="https://traderdev.xepho.co.uk/admin/webinars/2026/edit" class="ticket-item">
+                      <div class="ticket-title">
+                        <h4>Third Video Course</h4>
+                      </div>
+
+                      <div class="ticket-info">
+                        <div>Victor Okonkwo</div>
+                        <div class="bullet"></div>
+                        <span class="text-success">Publish</span>
+                        <span class="text-success text-small font-600-bold">(Finished)</span>
+                      </div>
+                    </a>
+                    <a href="https://traderdev.xepho.co.uk/admin/webinars/2023/edit" class="ticket-item">
+                      <div class="ticket-title">
+                        <h4>First Video Course</h4>
+                      </div>
+
+                      <div class="ticket-info">
+                        <div>Victor Okonkwo</div>
+                        <div class="bullet"></div>
+                        <span class="text-success">Publish</span>
+                        <span class="text-success text-small font-600-bold">(Finished)</span>
+                      </div>
+                    </a>
+
+                    <a href="https://traderdev.xepho.co.uk/admin/webinars?type=course" class="ticket-item ticket-more">
+                      View All <i class="fas fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-12 col-sm-12">
+              <div class="card">
+                <div class="card-header">
+                  <h4>User Registration Statistics</h4>
+                  <div class="card-header-action">
+                    <div class="btn-group"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="position-relative">
+                        <canvas id="usersStatisticsChart"></canvas>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="modal fade" id="fileViewModal" tabindex="-1" aria-labelledby="fileViewModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <img src="" class="w-100" height="350px" alt="" />
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+              Close
+            </button>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- General JS Scripts -->
-    <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/jquery/jquery-3.3.1.min.js"></script>
-    <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/poper/popper.min.js"></script>
-    <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/bootstrap/bootstrap.min.js"></script>
-    <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/nicescroll/jquery.nicescroll.min.js"></script>
-    <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/moment/moment.min.js"></script>
-    <script src="https://traderdev.xepho.co.uk/assets/admin/js/stisla.js"></script>
-    <script src="https://traderdev.xepho.co.uk/assets/default/vendors/toast/jquery.toast.min.js"></script>
+  <!-- General JS Scripts -->
+  <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/jquery/jquery-3.3.1.min.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/poper/popper.min.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/nicescroll/jquery.nicescroll.min.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/moment/moment.min.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/admin/js/stisla.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/default/vendors/toast/jquery.toast.min.js"></script>
 
-    <script>
-      (function () {
-        "use strict";
+  <script>
+    (function () {
+      "use strict";
 
-        window.csrfToken = $('meta[name="csrf-token"]');
-        $.ajaxSetup({
-          headers: {
-            "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
-          },
-        });
+      window.csrfToken = $('meta[name="csrf-token"]');
+      $.ajaxSetup({
+        headers: {
+          "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
+        },
+      });
 
-        window.adminPanelPrefix = "/admin";
-      })(jQuery);
-    </script>
+      window.adminPanelPrefix = "/admin";
+    })(jQuery);
+  </script>
 
-    <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/daterangepicker/daterangepicker.min.js"></script>
-    <script src="https://traderdev.xepho.co.uk/assets/default/vendors/select2/select2.min.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/daterangepicker/daterangepicker.min.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/default/vendors/select2/select2.min.js"></script>
 
-    <script src="https://traderdev.xepho.co.uk/vendor/laravel-filemanager/js/stand-alone-button.js"></script>
-    <!-- Template JS File -->
-    <script src="https://traderdev.xepho.co.uk/assets/admin/js/scripts.js"></script>
+  <script src="https://traderdev.xepho.co.uk/vendor/laravel-filemanager/js/stand-alone-button.js"></script>
+  <!-- Template JS File -->
+  <script src="https://traderdev.xepho.co.uk/assets/admin/js/scripts.js"></script>
 
-    <script src="https://traderdev.xepho.co.uk/assets/default/vendors/chartjs/chart.min.js"></script>
-    <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/default/vendors/chartjs/chart.min.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/admin/vendor/owl.carousel/owl.carousel.min.js"></script>
 
-    <script src="https://traderdev.xepho.co.uk/assets/admin/js/dashboard.min.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/admin/js/dashboard.min.js"></script>
 
-    <script>
-      (function ($) {
-        "use strict";
+  <script>
+    (function ($) {
+      "use strict";
 
-        makeStatisticsChart(
-          "saleStatisticsChart",
-          saleStatisticsChart,
-          "Sale",
-          [
-            "Jan",
-            "Feb",
-            "Mar",
-            "Apr",
-            "May",
-            "Jun",
-            "Jul",
-            "Aug",
-            "Sep",
-            "Oct",
-            "Nov",
-            "Dec",
-          ],
-          [0, 0, 66, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        );
+      makeStatisticsChart(
+        "saleStatisticsChart",
+        saleStatisticsChart,
+        "Sale",
+        [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec",
+        ],
+        [0, 0, 66, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      );
 
-        makeStatisticsChart(
-          "usersStatisticsChart",
-          usersStatisticsChart,
-          "Users",
-          [
-            "01",
-            "02",
-            "03",
-            "04",
-            "05",
-            "06",
-            "07",
-            "08",
-            "09",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30",
-            "31",
-          ],
-          [
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0,
-          ]
-        );
-      })(jQuery);
-    </script>
-    <link
-      href="https://traderdev.xepho.co.uk/assets/default/vendors/flagstrap/css/flags.css"
-      rel="stylesheet"
-    />
-    <script src="https://traderdev.xepho.co.uk/assets/default/vendors/flagstrap/js/jquery.flagstrap.min.js"></script>
-    <script src="https://traderdev.xepho.co.uk/assets/default/js/parts/top_nav_flags.min.js"></script>
+      makeStatisticsChart(
+        "usersStatisticsChart",
+        usersStatisticsChart,
+        "Users",
+        [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0,
+        ]
+      );
+    })(jQuery);
+  </script>
+  <link href="https://traderdev.xepho.co.uk/assets/default/vendors/flagstrap/css/flags.css" rel="stylesheet" />
+  <script src="https://traderdev.xepho.co.uk/assets/default/vendors/flagstrap/js/jquery.flagstrap.min.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/default/js/parts/top_nav_flags.min.js"></script>
 
-    <script>
-      var deleteAlertTitle = "Are you sure?";
-      var deleteAlertHint = "This action cannot be undone!";
-      var deleteAlertConfirm = "Delete";
-      var deleteAlertCancel = "Cancel";
-      var deleteAlertSuccess = "Success";
-      var deleteAlertFail = "Failed";
-      var deleteAlertFailHint = "Error while deleting item!";
-      var deleteAlertSuccessHint = "Item successfully deleted.";
-      var forbiddenRequestToastTitleLang = "&quot;FORBIDDEN&quot; Request";
-      var forbiddenRequestToastMsgLang = "You not access to this content.";
-      var generatedContentLang = "Generated Content";
-      var copyLang = "Copy";
-      var doneLang = "Done";
-    </script>
+  <script>
+    var deleteAlertTitle = "Are you sure?";
+    var deleteAlertHint = "This action cannot be undone!";
+    var deleteAlertConfirm = "Delete";
+    var deleteAlertCancel = "Cancel";
+    var deleteAlertSuccess = "Success";
+    var deleteAlertFail = "Failed";
+    var deleteAlertFailHint = "Error while deleting item!";
+    var deleteAlertSuccessHint = "Item successfully deleted.";
+    var forbiddenRequestToastTitleLang = "&quot;FORBIDDEN&quot; Request";
+    var forbiddenRequestToastMsgLang = "You not access to this content.";
+    var generatedContentLang = "Generated Content";
+    var copyLang = "Copy";
+    var doneLang = "Done";
+  </script>
 
-    <script src="https://traderdev.xepho.co.uk/assets/admin/js/custom.js"></script>
-    <script src="https://traderdev.xepho.co.uk/assets/default/js/panel/ai-content-generator.min.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/admin/js/custom.js"></script>
+  <script src="https://traderdev.xepho.co.uk/assets/default/js/panel/ai-content-generator.min.js"></script>
 
-    <script></script>
-  </body>
+  <script></script>
+</body>
+
 </html>

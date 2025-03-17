@@ -1,0 +1,25 @@
+@font-face {
+    font-family: VisbyBold;
+    src: url('./VisbyBold.otf');
+}
+
+:root {
+    --primary: #1c797e;
+}
+
+body {
+    font-family: VisbyBold;
+    overflow-x: hidden;
+}
+
+.main-sidebar a {
+    color: black !important;
+}
+.menu-header {
+    color: #1b787d !important;
+    font-size: 14px !important;
+}
+
+.menu-header .head {
+    color: #1b787d !important;
+}
