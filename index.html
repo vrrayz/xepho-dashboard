@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Web Design</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://xepho.co.uk/central/dashboard/styles1.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <style>
+    .header-custom {
+      background-color: #1c797e;
+      color: white;
+    }
+
+    .header-custom .btn-outline-secondary {
+      color: white;
+      border-color: white;
+    }
+
+    .header-custom .btn-outline-secondary:hover {
+      background-color: white;
+      color: #1c797e;
+    }
+
+    .header-custom select {
+      background-color: #1c797e;
+      color: white;
+      border: none;
+    }
+
+    .header-custom select:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    .header-custom .fa-lg {
+      color: white;
+    }
+
+    .header-custom .badge {
+      background-color: red;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+
+    .overlay .countdown {
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .scrollable-section {
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .scrollable-section::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .scrollable-section::-webkit-scrollbar-thumb {
+      background-color: #1c797e;
+      border-radius: 4px;
+    }
+
+    .scrollable-section::-webkit-scrollbar-track {
+      background-color: #f1f1f1;
+    }
+  </style>
+
+  <body>
+    <div class="mainBoard">
+      <header class="py-3 header-custom">
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <div></div>
+          <nav class="d-flex align-items-center">
+            <!--<button class="btn btn-outline-secondary me-3">-->
+            <!--    <div class="d-flex align-items-center">-->
+            <!--        <i class="fas fa-flag-usa me-2"></i>-->
+            <!--        <select class="border-0 form-select">-->
+            <!--            <option value="en">English</option>-->
+            <!--            <option value="es">Español</option>-->
+            <!--            <option value="fr">Français</option>-->
+            <!--            <option value="de">Deutsch</option>-->
+            <!--            <option value="it">Italiano</option>-->
+            <!--        </select>-->
+            <!--    </div>-->
+            <!--</button>-->
+            <div class="d-flex align-items-center">
+              <div class="position-relative me-3">
+                <form action="https://xepho.co.uk/auth/logout" method="POST">
+                  <input
+                    type="hidden"
+                    name="_token"
+                    value="JOHHozZGw1hjxeZRyh78jz7sF6qbqqfE7v0BxUGX"
+                  />
+                  <button class="btn btn-primary" type="submit">Logout</button>
+                </form>
+              </div>
+              <!--<div class="position-relative me-3">-->
+              <!--    <i class="fa-solid fa-info fa-lg"></i>-->
+              <!--    <span class="top-0 badge bg-danger rounded-circle position-absolute start-100 translate-middle">3</span>-->
+              <!--</div>-->
+              <!--<div class="position-relative me-3">-->
+              <!--    <i class="fa-regular fa-bell fa-lg"></i>-->
+              <!--    <span class="top-0 badge bg-danger rounded-circle position-absolute start-100 translate-middle">5</span>-->
+              <!--</div>-->
+              <div class="profile-container d-flex align-items-center">
+                <input
+                  type="file"
+                  id="profilePictureInput"
+                  class="d-none"
+                  onchange="updateProfilePicture(event)"
+                />
+                <div
+                  class="profile-picture bg-secondary rounded-circle me-2"
+                  id="profilePicture"
+                  style="width: 40px; height: 40px"
+                ></div>
+                <span class="fw-bold">David Trevor</span>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <div class="bgimg">
+      <div class="content">
+        <h1>Welcome, David Trevor!</h1>
+        <p>Everything is in your control. Start by creating your site.</p>
+
+        <a href="https://xepho.co.uk/create-platform"
+          ><button>Create New Platform</button></a
+        >
+        <a href="https://xepho.co.uk/user/domains"
+          ><button>View Platforms</button></a
+        >
+      </div>
+    </div>
+    <script>
+      function updateProfilePicture(event) {
+        const file = event.target.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function (e) {
+          const profilePicture = document.getElementById("profilePicture");
+          profilePicture.style.backgroundImage = `url(${e.target.result})`;
+        };
+
+        if (file) {
+          reader.readAsDataURL(file);
+        }
+      }
+    </script>
+  </body>
+</html>
